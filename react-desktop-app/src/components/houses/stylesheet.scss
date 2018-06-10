@@ -1,0 +1,54 @@
+@import "./../../common/colors";
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.main-left {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: auto;
+}
+
+.inner-left {
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  padding-right: 15px;
+}
+
+.main-right {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-input {
+  width: 256px;
+  padding: 8px 16px;
+  margin: 8px 16px 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  text-align: center;
+
+  &:focus {
+    background-color: $turquoise;
+  }
+}
+
+.go-button {
+  background-color: $sunny-yellow;
+  cursor: pointer;
+  color: black;
+  padding: 8px 32px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $turquoise;
+  }
+}

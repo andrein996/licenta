@@ -1,0 +1,29 @@
+@import "./../../common/colors";
+
+.house {
+  align-self: center;
+  background-color: $pastel;
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding: 8px;
+  text-align: center;
+  width: max-content;
+}
+
+.house-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.house-devices {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  div:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,22 @@
+@import "./../../common/colors";
+
+.houses-list {
+  padding: 8px 32px;
+}
+
+.house-entry {
+  background-color: $turquoise;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 8px;
+  padding: 8px 64px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

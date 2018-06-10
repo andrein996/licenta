@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 8px 16px;
+}
+
+.houses {
+  display: flex;
+  text-align: center;
+
+  div:first-of-type {
+    margin-left: 0;
+  }
+
+  div {
+    margin-left: 4px;
+  }
+}

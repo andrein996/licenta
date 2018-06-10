@@ -1,0 +1,21 @@
+@import "./common/colors";
+
+.main {
+  text-align: center;
+}
+
+.main-refresh-button {
+  background-color: $gri;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  padding: 16px 64px;
+  margin-bottom: 16px;
+
+  &:hover {
+    background-color: $gold;
+    border: 1px solid $gri;
+  }
+}

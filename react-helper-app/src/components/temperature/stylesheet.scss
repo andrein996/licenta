@@ -1,0 +1,25 @@
+@import "./../../common/colors";
+
+.device {
+  background-color: $gri;
+  border: 1px solid white;
+  color: black;
+  margin-bottom: 8px;
+  padding: 8px 4px;
+  width: 70%;
+}
+
+.device-name {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.current-temperature {
+  span {
+    font-size: 14px
+  }
+}
+
+.sent-temperature-text {
+  display: block;
+}

@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  margin:0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#app {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}

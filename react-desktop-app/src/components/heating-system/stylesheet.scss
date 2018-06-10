@@ -1,0 +1,72 @@
+@import "./../../common/colors";
+
+.heating-system {
+  display: block;
+
+  > span:first-child {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.heating-system-settings {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.heating-system-setting {
+  border: 2px solid black;
+  color: white;
+  height: fit-content;
+
+  &.settings-off {
+    background-color: $charcoal;
+    color: black;
+  }
+
+  &.settings-decreasing {
+    background-color: $ice-blue;
+  }
+
+  &.settings-increasing {
+    background-color: $red;
+  }
+}
+
+.heating-system-settings-text {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  padding: 4px 64px;
+  width: 128px;
+}
+
+.heating-system-button {
+  border: 2px solid black;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  height: 100px;
+  line-height: 100px;
+  font-weight: 700;
+  margin-left: 32px;
+  width: 100px;
+
+  &.turn-off {
+    background-color: $red;
+  }
+
+  &.turn-on {
+    background-color: $fresh-green;
+  }
+
+  &.disabled {
+    background-color: $charcoal;
+    color: black;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
